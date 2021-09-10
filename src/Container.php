@@ -1,5 +1,9 @@
 <?php
-class Container{
+
+namespace Liuxiaozhi\ComposerTestPackage;
+
+class Container
+{
 	/**
 	 * Container constructor.
 	 */
