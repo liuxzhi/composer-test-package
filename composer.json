@@ -1,0 +1,21 @@
+{
+    "name": "liuxiaozhi/composer-test-package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files":[
+            "src/lib/helper.php"
+        ],
+        "psr-4": {
+            "Liuxiaozhi\\ComposerTestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liuxzhi",
+            "email": "15864375581@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
